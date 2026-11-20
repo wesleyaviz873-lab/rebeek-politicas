@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de Privacidade — Rebeek</title>
+<style>
+  :root{--txt:#1f1a1d;--muted:#6b5f66;--brand:#6d1f3c;--bg:#fdfbfb;--line:#eadfe4}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  main{max-width:820px;margin:0 auto;padding:40px 22px 80px}
+  h1{font-size:30px;line-height:1.2;margin:0 0 6px;color:var(--brand)}
+  h2{font-size:19px;margin:34px 0 8px;color:var(--brand)}
+  p,li{color:var(--txt)}
+  .sub{color:var(--muted);margin:0 0 28px}
+  ul{padding-left:22px}
+  a{color:var(--brand)}
+  .box{border:1px solid var(--line);background:#fff;border-radius:12px;padding:16px 18px;margin:24px 0}
+  footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+  code{background:#f3ecef;padding:1px 5px;border-radius:4px;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade — Rebeek</h1>
+  <p class="sub">Última atualização: 20 de novembro de 2026</p>
+
+  <p>O <strong>Rebeek</strong> é um aplicativo de gestão para salões de beleza, barbearias e estúdios de estética.
+  Esta política explica quais dados o aplicativo trata, para quê, com quem compartilha e como você pode exercer
+  os seus direitos, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD).</p>
+
+  <div class="box">
+    <strong>Controlador:</strong> Rebeek — aplicativo de gestão para salões.<br>
+    <strong>Contato do encarregado de dados (DPO):</strong> <a href="mailto:suporte@rebeek.com">suporte@rebeek.com</a>
+  </div>
+
+  <h2>1. Quem é o controlador dos dados</h2>
+  <p>O Rebeek é operado pelo responsável pelo aplicativo. Quando o aplicativo é usado por um salão, o
+  <strong>salão é o controlador</strong> dos dados dos seus clientes (nome, telefone, histórico, fichas) e o
+  Rebeek atua como <strong>operador</strong>, tratando esses dados apenas para prestar o serviço contratado.
+  Em relação aos dados da conta do salão (login, assinatura, suporte), o Rebeek é o controlador.</p>
+
+  <h2>2. Dados que tratamos</h2>
+  <ul>
+    <li><strong>Conta e login:</strong> nome, e-mail, foto de perfil e identificador da conta Google (quando o
+      login é feito com o Google) ou e-mail e senha (senha armazenada apenas em formato criptografado).</li>
+    <li><strong>Dados do salão:</strong> nome do negócio, telefone, endereço, logo, horário de funcionamento,
+      serviços, preços e profissionais.</li>
+    <li><strong>Dados de clientes do salão:</strong> nome, telefone, foto, histórico de atendimentos,
+      observações, preferências e fichas de anamnese preenchidas pelo próprio cliente ou pelo salão.</li>
+    <li><strong>Agenda:</strong> agendamentos, horários, serviços, valores e status.</li>
+    <li><strong>Mensagens de WhatsApp:</strong> quando o salão conecta o seu número ao aplicativo, as conversas
+      trocadas com os clientes são processadas para exibir o atendimento dentro do app e permitir as respostas.
+      O conteúdo pertence ao salão e aos seus clientes.</li>
+    <li><strong>Pagamentos:</strong> dados necessários para cobrança da assinatura e de sinais. Cartões e dados
+      bancários são processados diretamente por <em>Stripe</em> e <em>Mercado Pago</em>; o Rebeek não armazena
+      o número do cartão.</li>
+    <li><strong>Notificações:</strong> identificador do aparelho para envio de notificações push (OneSignal).</li>
+    <li><strong>Uso e diagnóstico:</strong> informações técnicas de uso, erros e desempenho (Firebase Analytics
+      e Crashlytics), para corrigir falhas e melhorar o aplicativo.</li>
+  </ul>
+
+  <h2>3. Para que usamos os dados</h2>
+  <ul>
+    <li>Operar o aplicativo: agenda, cadastro de clientes, caixa e atendimento.</li>
+    <li>Enviar lembretes, confirmações e mensagens relacionadas aos agendamentos.</li>
+    <li>Processar a assinatura e cobranças autorizadas pelo salão.</li>
+    <li>Dar suporte e responder solicitações.</li>
+    <li>Prevenir fraudes, garantir a segurança e cumprir obrigações legais.</li>
+    <li>Melhorar o produto a partir de métricas agregadas de uso e de falhas.</li>
+  </ul>
+
+  <h2>4. Bases legais</h2>
+  <p>Tratamos dados com base em: <strong>execução de contrato</strong> (prestar o serviço), <strong>legítimo
+  interesse</strong> (segurança, prevenção a fraudes e melhoria do produto), <strong>consentimento</strong>
+  (quando aplicável, como o envio de notificações e a conexão do WhatsApp) e <strong>obrigação legal</strong>
+  (guarda de registros fiscais e de acesso).</p>
+
+  <h2>5. Compartilhamento</h2>
+  <p>Não vendemos dados pessoais. Compartilhamos apenas o necessário com fornecedores que nos ajudam a operar o
+  serviço, todos com obrigações de confidencialidade e segurança:</p>
+  <ul>
+    <li>Infraestrutura e hospedagem (servidor próprio e Cloudflare);</li>
+    <li>Autenticação (Supabase Auth e Google Sign-In);</li>
+    <li>Pagamentos (Stripe e Mercado Pago);</li>
+    <li>Mensageria de WhatsApp e automação de atendimento;</li>
+    <li>Notificações push (OneSignal) e envio de e-mails (Resend);</li>
+    <li>Métricas e diagnóstico de falhas (Google Firebase).</li>
+  </ul>
+  <p>Também podemos divulgar dados se formos obrigados por lei, ordem judicial ou autoridade competente.</p>
+
+  <h2>6. Armazenamento e segurança</h2>
+  <p>Os dados ficam em servidores próprios, com acesso restrito, transmissão criptografada (HTTPS) e separação
+  por salão: cada conta acessa apenas os próprios dados. Senhas são guardadas com criptografia irreversível e
+  o acesso administrativo é limitado e registrado.</p>
+
+  <h2>7. Retenção e exclusão</h2>
+  <p>Mantemos os dados enquanto a conta existir ou enquanto forem necessários para prestar o serviço e cumprir
+  obrigações legais. Ao encerrar a conta, os dados são excluídos ou anonimizados, ressalvados os registros que a
+  lei obriga a guardar. Você pode pedir a exclusão a qualquer momento pelo e-mail de contato.</p>
+
+  <h2>8. Seus direitos (LGPD)</h2>
+  <p>Você pode solicitar: confirmação de tratamento, acesso, correção, anonimização, bloqueio ou eliminação de
+  dados desnecessários, portabilidade, informação sobre compartilhamentos e revogação de consentimento. Basta
+  escrever para <a href="mailto:suporte@rebeek.com">suporte@rebeek.com</a>. Responderemos no prazo legal.</p>
+
+  <h2>9. Cookies e rastreamento</h2>
+  <p>O aplicativo não usa cookies de publicidade nem rastreia você em outros aplicativos ou sites. As métricas
+  usadas são de uso do próprio app e de falhas.</p>
+
+  <h2>10. Crianças e adolescentes</h2>
+  <p>O Rebeek é destinado a maiores de 18 anos. Não coletamos intencionalmente dados de menores. Se isso
+  ocorrer, os dados serão excluídos assim que identificados.</p>
+
+  <h2>11. Alterações nesta política</h2>
+  <p>Podemos atualizar esta política para refletir mudanças no aplicativo ou na lei. A data de atualização
+  aparece no topo da página e mudanças relevantes serão comunicadas no aplicativo.</p>
+
+  <h2>12. Contato</h2>
+  <p>Dúvidas sobre privacidade ou pedidos de titular: <a href="mailto:suporte@rebeek.com">suporte@rebeek.com</a>.</p>
+
+  <footer>Rebeek — Política de Privacidade · atualizada em 20/11/2026</footer>
+</main>
+</body>
+</html>
